@@ -1,0 +1,316 @@
+:root {
+    --main-txt-color: darkcyan;
+    --main-padding: 15px;
+    --main-upper-bgcolor: #ffe3ba;
+    --main-lower-bgcolor: #85ded2;
+}
+
+
+#container{
+    width: 1050px;
+    margin: 0 auto;
+}
+
+h1 a{
+    font-size: 48px;
+    font-weight: 200;
+    color: var(--main-txt-color);
+    text-decoration: none;
+}
+
+#login{
+    float: right;
+    background: var(--main-upper-bgcolor);
+    width: 500px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+#companyName{
+    float: left;
+}
+
+#mainMenu{
+    height: 70px;
+    background: linear-gradient(var(--main-upper-bgcolor),var(--main-lower-bgcolor) );
+    padding: 8px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+#mainMenu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 35px;
+    border-right: 2px solid darkcyan;
+}
+
+#mainMenu ul li:last-child{
+    border-right: none;
+}
+
+#mainMenu ul li a{
+    text text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: darkcyan;
+    line-height: 35px;
+    -webkit-transition: font-size .2s ease;
+    -moz-transition: font-size .2s ease;
+    -ms-transition: font-size .2s ease;
+    transition: font-size .2s ease;
+}
+
+#mainMenu ul li a:hover, #mainMenu ul li a.active{
+    font-size: 22px;
+    font-weight: bold;
+    color: #00b389;
+}
+
+#pageGreeting{
+    background:  var(--main-lower-bgcolor);
+    padding: 30px;
+    margin: 18px 0;
+}
+
+#pageGreeting h3{
+    font-size: 30px;
+    color: darkcyan;
+    font-weight: normal;
+}
+
+#pageGreeting p{
+    font-size: 22px;
+    color:  darkcyan;
+    text-align: justify;
+}
+
+#loginForm{
+    padding: 30px 0;
+}
+
+
+/* ------ leftBlockOne blocks (primary block) ------ */
+#leftBodyOne h3{
+    padding-top: 75px;
+}
+
+#leftBodyOne ul{
+    padding-top: 8px;
+}
+
+
+#leftBodyOne ul li{
+    padding: 7px 0 7px 10px;
+    list-style-image: url(images/bell.png);
+}
+
+#rightBodyOne img{
+    padding-top: 15%;
+}
+
+#leftBodyOne img{
+    padding-top: 20px;
+}
+
+#rightBodyOne h3{
+    padding-top: 75px;
+}
+
+#leftBodyOne h1{
+    color: var(--main-txt-color);
+    text-align: center;
+}
+
+#rightBodyOne ul{
+    padding-top: 8px;
+}
+
+#rightBodyOne ul li{
+    padding: 7px 0 7px 10px;
+    list-style-image: url(images/bell.png);
+}
+
+
+#leftBodyOne{
+    float: left;
+    background: linear-gradient(var(--main-lower-bgcolor),var(--main-upper-bgcolor) );
+}
+
+#rightBodyOne{
+    float: right;
+    background: linear-gradient(var(--main-lower-bgcolor),var(--main-upper-bgcolor) );
+} /* end top row body blocks */
+
+
+
+/* ------- events.html blocks ------- */
+#eventBlockLeft h3{
+    padding-top: 75px;
+}
+
+#eventBlockLeft ul{
+    padding-top: 8px;
+}
+
+
+#eventBlockLeft ul li{
+    padding: 7px 0 7px 10px;
+    list-style-image: url(images/calendar.png);
+}
+
+#eventBlockRight h3{
+    padding-top: 75px;
+}
+
+#eventBlockRight ul{
+    padding-top: 8px;
+}
+
+#eventBlockRight ul li{
+    padding: 7px 0 7px 10px;
+    list-style-image: url(images/calendar.png);
+}
+
+#eventBlockLeft{
+    float: left;
+    background: linear-gradient(var(--main-lower-bgcolor),var(--main-upper-bgcolor) );
+}
+
+#eventBlockRight{
+    float: right;
+    background: linear-gradient(var(--main-lower-bgcolor),var(--main-upper-bgcolor) );
+} /* end events.html blocks */
+
+
+
+/* ------- donate blocks ------- */
+#leftDonateBody ul{
+    padding-top: 4px;
+}
+
+
+#leftDonateBody ul li{
+    padding: 3px 0 3px 10px;
+    list-style-image: url(images/bell.png);
+}
+
+#rightDonateBody h3{
+    padding-top: 8px;
+}
+
+#rightDonateBody ul{
+    padding-top: 8px;
+}
+
+#rightDonateBody ul li{
+    padding: 7px 0 7px 10px;
+    list-style-image: url(images/bell.png);
+}
+
+
+#leftDonateBody{
+    float: left;
+    background: linear-gradient(var(--main-lower-bgcolor),var(--main-upper-bgcolor) );
+}
+
+#rightDonateBody{
+    float: right;
+    background: linear-gradient(var(--main-lower-bgcolor),var(--main-upper-bgcolor) );
+} /* end donate blocks */
+
+
+
+/* ------- signup block for events ------- */
+#eventSignupLeft h2{
+    padding-top: 75px;
+}
+
+#eventSignupLeft ul{
+    padding-top: 8px;
+}
+
+
+#eventSignupLeft ul li{
+    padding: 7px 0 7px 10px;
+    list-style-image: url(images/bell.png);
+}
+
+#eventSignupLeft{
+    float: left;
+    background: linear-gradient(var(--main-lower-bgcolor),var(--main-upper-bgcolor) );
+} /* end signup block for events */
+
+
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: darkcyan;
+}
+
+.body ul li a:hover, .body ul li a:active{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00b389;    
+    -webkit-transition: font-size .2s ease;
+    -moz-transition: font-size .2s ease;
+    -ms-transition: font-size .2s ease;
+    transition: font-size .2s ease;
+}
+
+.footer{
+    height: 60px;
+    background: var(--main-upper-bgcolor);
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
+.submit{
+    float: right;
+    padding: 10;
+    font-weight: bold;
+    color:white;
+    background: darkcyan;
+    font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.body{
+    height: 550px;
+    width: 450px;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.bodyLong{
+    height: 650px;
+    width: 450px;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.body h3{
+    color: darkcyan;
+    font-size: 40px;
+}

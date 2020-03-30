@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Best Community Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = yes">
+    <link rel="stylesheet" href="styling.css">
+  </head>
+
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="companyName">
+          <h1><a href="index.html">Best Community Service</a></h1>
+        </div>
+        <div id="login">
+          <form action="signup.html">
+	    <input type="submit" value="Sign Up" class="submit">
+          </form>
+          <form action="login.html">
+	    <input type="submit" value="Login" class="submit">
+          </form>
+        </div>
+      </div>
+      <div class="clear">
+        
+      </div>
+      
+      <div id="mainMenu">
+        <Ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="donate.html">Donate</a></li>
+	  <li><a href="services.html">Services</a></li>
+          <li><a href="volunteerapply.html">Volunteer/Apply</a></li>
+        </Ul>
+      </div> <!-- end main menu div -->
+      
+      <div id="pageGreeting">
+        <h3>Catering Service</h3>
+	<p>Need help with food for your event? Fill out our quick catering request form and a member of our staff will contact you to make final arrangements.</p>
+      </div> <!-- end page greeting div -->
+
+
+      <div id="leftBodyOne" class="bodyLong">
+	<form>
+	<br>
+	<h4>How many guests do you need to serve?</h4>
+	<input type="number" size="10px">
+	<br>
+	
+	<h4>What is the date of the event?</h4>
+	<input type="date" id="eventdate" name="eventdate">
+	<br>
+	
+	<h4>When would you like for us to serve your meal?</h4>
+	<input type="text" name="eventtime" size="20px" maxlength="20" id="eventtime">
+
+	<h2>Meal Builder</h2>
+
+	<p>Appetizer</p>
+	<input type="radio" id="soupapp" name="appetizer" value="soup">
+	<label for="soup">Soup</label>
+	&emsp;
+	<input type="radio" id="saladapp" name="appetizer" value="salad">
+	<label for="salad">Salad</label>
+	&emsp;
+	<input type="radio" id="breadapp" name="appetizer" value="bread">
+	<label for="bread">Bread</label>
+	<br>
+
+	<p>Entree</p>
+	<input type="radio" id="chickenentree" name="entree" value="chicken">
+	<label for="chicken">Chicken</label>
+	&emsp;
+	<input type="radio" id="steakentree" name="entree" value="steak">
+	<label for="steak">Steak</label>
+	&emsp;
+	<input type="radio" id="pastaentree" name="entree" value="pasta">
+	<label for="pasta">Pasta</label>
+	<br>
+
+	<p>Dessert</p>
+	<input type="radio" id="icecreamdessert" name="dessert" value="icecream">
+	<label for="icecream">Ice Cream</label>
+	&emsp;
+	<input type="radio" id="cakedessert" name="dessert" value="cake">
+	<label for="cake">Cake</label>
+	&emsp;
+	<input type="radio" id="cheesecakedessert" name="dessert" value="cheesecake">
+	<label for="cheesecake">Cheesecake</label>
+	<br>
+	
+	<h4>Do you expect to need additional equipment for this event?</h4>
+	<input type="radio" id="yesequip" name="equip" value="yes">
+	<label for="yes">Yes</label>
+	&emsp;
+	<input type="radio" id="nocequip" name="equip" value="no">
+	<label for="no">No</label>
+	<br>
+
+	</form>
+      </div>
+
+
+      
+
+      
+      <div id="rightBodyOne" class="bodyLong">
+	<form>
+	  <br><br><br><br><br><br>
+	  <h2>Personal Info</h2>
+	  
+	  <Label for="fName">First Name</label>  
+	  <br>
+	  <input type="text" name="fName" placeholder="first name" size="30px" maxlength="100" id="fName">
+	  <br><br>
+
+	  <Label for="lName">Last Name</label>  
+	  <br>
+	  <input type="text" name="lName" placeholder="last name" size="30px" maxlength="100" id="lName">
+	  <br><br>
+
+	  <Label for="phone">Phone Number</label>
+	  <br>
+
+	  <input type="text" name="phone" placeholder="012 345 6789" size="30px" minlength="10" maxlength="10" id="phone">
+	  <br><br>
+
+	  <Label for="email">Email</label>  
+	  <br>
+
+	  <input type="email" name="email" placeholder="Email" size="30px" maxlength="100" id="email">
+	  <br><br>
+	  <input type="submit" value="Submit">
+	</form>
+      </div>
+
+      
+      <div class="clear"></div>
+      <footer class ="footer">
+	<div>
+	  <p>Best Community Service. Copyright &copy; 2020 </p>
+	</div>
+      </footer>
+
+    </div>
+    
+  </body>
+  
+</html>

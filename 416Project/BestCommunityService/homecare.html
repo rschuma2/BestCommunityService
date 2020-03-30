@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Best Community Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = yes">
+    <link rel="stylesheet" href="styling.css">
+  </head>
+
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="companyName">
+          <h1><a href="index.html">Best Community Service</a></h1>
+        </div>
+        <div id="login">
+          <form action="signup.html">
+	    <input type="submit" value="Sign Up" class="submit">
+          </form>
+          <form action="login.html">
+	    <input type="submit" value="Login" class="submit">
+          </form>
+        </div>
+      </div>
+      <div class="clear">
+        
+      </div>
+      <div id="mainMenu">
+        <Ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="donate.html">Donate</a></li>
+	  <li><a href="services.html">Services</a></li>
+          <li><a href="volunteerapply.html">Volunteer/Apply</a></li>
+        </Ul>
+      </div> <!-- end main menu div -->
+      <div id="pageGreeting">
+        <h3>Home Care</h3>
+	<p>Do you need some extra help taking care of simple needs? Fill out our quick request form and a member of our staff will contact you to find out how we can help (this form may be filled out with consent by a third party representing the individual in need).</p>
+	
+      </div> <!-- end page greeting div -->
+
+      <div id="leftBodyOne" class="bodyLong">
+	<form>
+	  <br><br><br>
+	  <h4>Are you filling this form out for yourself or someone else?</h4>
+	  <input type="radio" id="myself" name="author" value="myself">
+	  <label for="myself">Myself</label>
+	  &emsp;
+	  <input type="radio" id="someoneelse" name="author" value="someone else">
+	  <label for="someoneelse">Someone Else</label>
+	  <br>	
+
+	  <h4>How many days a week will you require help?</h4>
+	  <input type="number" name="dayshelp" size="2px" maxlength="1" id="dayshelp">
+	  <br>
+
+	  <h4>Additional information about help needed.</h4>
+	  <textarea id="equipmentdescription" rows="10" cols="50">
+	  </textarea>
+	  <br>
+
+	  
+	  <h4>What would be a good date to start receiving help?</h4>
+	  <input type="date" id="startdate" name="startdtae">
+	  <br>
+	  
+	  <h4>What is a good timeframe for someone to help you?</h4>
+	  <input type="text" name="helptimeframe" placeholder="(e.g. 10:00am - 3:00pm)" size="20px" maxlength="20" id="helptimeframe">
+	</form>
+      </div>
+
+      <div id="rightBodyOne" class="bodyLong">
+	<form>
+	  <br><br><br><br><br><br>
+	  <h2>Personal Info</h2>
+	  
+	  <Label for="fName">First Name</label>  
+	  <br>
+	  <input type="text" name="fName" placeholder="first name" size="30px" maxlength="100" id="fName">
+	  <br><br>
+
+	  <Label for="lName">Last Name</label>  
+	  <br>
+	  <input type="text" name="lName" placeholder="last name" size="30px" maxlength="100" id="lName">
+	  <br><br>
+
+	  <Label for="phone">Phone Number</label>
+	  <br>
+
+	  <input type="text" name="phone" placeholder="012 345 6789" size="30px" minlength="10" maxlength="10" id="phone">
+	  <br><br>
+
+	  <Label for="email">Email</label>  
+	  <br>
+
+	  <input type="email" name="email" placeholder="Email" size="30px" maxlength="100" id="email">
+	  <br><br>
+	  <input type="submit" value="Submit">
+	</form>
+      </div>
+      
+      <div class="clear"></div>
+      <footer class ="footer">
+	<div>
+	  <p>Best Community Service. Copyright &copy; 2020 </p>
+	</div>
+      </footer>
+
+    </div>
+    
+  </body>
+  
+</html>

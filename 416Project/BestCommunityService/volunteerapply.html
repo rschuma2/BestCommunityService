@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Best Community Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = yes">
+    <link rel="stylesheet" href="styling.css">
+  </head>
+
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="companyName">
+          <h1><a href="index.html">Best Community Service</a></h1>
+        </div>
+        <div id="login">
+          <form action="signup.html">
+	    <input type="submit" value="Sign Up" class="submit">
+          </form>
+          <form action="login.html">
+	    <input type="submit" value="Login" class="submit">
+          </form>
+        </div>
+      </div>
+      <div class="clear">
+        
+      </div>
+      <div id="mainMenu">
+        <Ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="donate.html">Donate</a></li>
+	  <li><a href="services.html">Services</a></li>
+          <li><a href="#" class="active">Volunteer/Apply</a></li>
+        </Ul>
+      </div> <!-- end main menu div -->
+      <div id="pageGreeting">
+        <h3>Join our Great Team as a Volunteer or paid Staff Member</h3>
+	<p>Select the best option for you below and tell us a bit about yourself.</p>
+	
+      </div> <!-- end page greeting div -->
+
+
+
+      <div id="leftBodyOne" class="bodyLong">
+	<form>
+
+	  <h4>What is your interest?</h4>
+	  <input type="radio" id="volunteer" name="employment" value="volunteer">
+	  <label for="volunteer">Volunteer</label>
+	  &emsp;
+	  <input type="radio" id="apply" name="employment" value="apply">
+	  <label for="apply">Apply</label>
+
+	  <form>
+
+	    <h4>Tell us a bit about yourself.</h4>
+	    
+	    <Label for="fName">First Name</label>  
+	    <br>
+	    <input type="text" name="fName" placeholder="first name" size="30px" maxlength="100" id="fName">
+	    <br><br>
+
+	    <Label for="lName">Last Name</label>  
+	    <br>
+	    <input type="text" name="lName" placeholder="last name" size="30px" maxlength="100" id="lName">
+	    <br><br>
+
+	    <Label for="phone">Phone Number</label>
+	    <br>
+
+	    <input type="text" name="phone" placeholder="012 345 6789" size="30px" minlength="10" maxlength="10" id="phone">
+	    <br><br>
+
+	    <Label for="email">Email</label>  
+	    <br>
+
+	    <input type="email" name="email" placeholder="Email" size="30px" maxlength="100" id="email">
+	    <br><br>
+
+	    <label for="reasonforinterest">Reason for interest in Best Community Service</label><br>
+	    <textarea id="reasonforinterest" rows="4" cols="50">
+	    </textarea>
+	    <br><br>
+	    
+	    <Label>If volunteering, select event(s) of interest.</label>  
+	    <br>
+	    <input type="checkbox" id="marchcommunitymeeting" name="marchcommunitymeeting" value="March Community Meeting">
+	    <label for="marchcommunitymeeting">March Community Meeting</label>
+	    &emsp;
+	    
+	    <input type="checkbox" id="aprilcommunitymeeting" name="aprilcommunitymeeting" value="April Community Meeting">
+	    <label for="aprilcommunitymeeting">April Community Meeting</label>
+	    <br>
+
+	    <input type="checkbox" id="spanish" name="spanish" value="Spanish Class">
+	    <label for="spanish">Spanish Class</label>
+	    &emsp;
+	    <input type="checkbox" id="artsandcrafts" name="artsandcrafts" value="Arts and Crafts">
+	    <label for="artsandcrafts">Arts & Crafts</label>
+	    &emsp;
+	    <input type="checkbox" id="painting" name="painting" value="Painting">
+	    <label for="painting">Painting</label>
+	    
+	    <br><br>
+
+	    <Label for="application">If applying, please upload your resume/cv.</label>  
+	    &emsp;
+	    <input type="file" id="application" name="application">
+
+	    <br><br>
+	    <input type="submit" value="Submit">
+
+	  </form>
+
+      </div>
+      <div id="rightBodyOne" class="bodyLong">
+	<ul></ul>
+	<img src="images/BCSlogoA.png">
+      </div>
+      <div class="clear"></div>
+
+      
+      <div class="clear"></div>
+      <footer class ="footer">
+	<div>
+	  <p>Best Community Service. Copyright &copy; 2020 </p>
+	</div>
+      </footer>
+
+    </div>
+    
+  </body>
+  
+</html>

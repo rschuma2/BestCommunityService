@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Best Community Service" company="Best Community Service" webLink="http://" view-date="2020-01-12" view-index="0" gantt-divider-location="589" resource-divider-location="300" version="2.8.10" locale="en_US">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="400" order="0"/>
+        <field id="tpd4" name="Begin date" width="77" order="1"/>
+        <field id="tpd5" name="End date" width="108" order="2"/>
+        <option id="color.recent"><![CDATA[#000000 #f4f4f4 #99ccff #ffcc00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="11" name="Initiation" meeting="false" start="2020-01-20" duration="7" complete="0" expand="true">
+            <task id="12" name="Identify High-level Requirements" color="#99ccff" meeting="false" start="2020-01-20" duration="7" complete="0" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Identify Personas" color="#99ccff" meeting="false" start="2020-01-20" duration="7" complete="0" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="Identify Detailed Requirements" color="#99ccff" meeting="false" start="2020-01-20" duration="7" complete="0" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="0" name="Planning (Frontend and Backend)" meeting="false" start="2020-01-20" duration="42" complete="0" expand="true">
+            <task id="4" name="Software Requirements Specification" color="#99ccff" meeting="false" start="2020-01-20" duration="7" complete="0" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="Software Design Document" meeting="false" start="2020-01-20" duration="42" complete="0" expand="true">
+                <task id="17" name="High-level Wireframe (Main screens and relationships)" color="#99ccff" meeting="false" start="2020-02-03" duration="6" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true">
+                    <depend id="18" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="18" name="Detailed list of screens with contents" color="#99ccff" meeting="false" start="2020-02-09" duration="22" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+                <task id="19" name="Use-case diagram" color="#99ccff" meeting="false" start="2020-01-20" duration="7" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true">
+                    <depend id="20" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="20" name="List of Use Cases: 1 Successful &amp; 1 Alternate Scenario each" color="#99ccff" meeting="false" start="2020-01-27" duration="35" complete="0" thirdDate="2020-01-27" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="6" name="Project Management Plan" meeting="false" start="2020-01-27" duration="28" complete="0" expand="true">
+                <task id="8" name="Scope Statement" color="#99ccff" meeting="false" start="2020-01-27" duration="7" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+                <task id="9" name="Work Breakdown Structure and Activities" color="#99ccff" meeting="false" start="2020-01-27" duration="7" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+                <task id="10" name="Schedule" color="#99ccff" meeting="false" start="2020-02-03" duration="7" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+                <task id="15" name="Budget" color="#99ccff" meeting="false" start="2020-02-10" duration="7" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+                <task id="16" name="Risk Breakdown Structure and Matrix" color="#99ccff" meeting="false" start="2020-02-17" duration="7" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+                <task id="49" name="Risk Probability/Impact Matrix" color="#99ccff" meeting="false" start="2020-02-17" duration="7" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="2" name="Prototype Development (User-facing)" meeting="false" start="2020-01-20" duration="42" complete="0" expand="true">
+            <depend id="50" type="2" difference="0" hardness="Strong"/>
+            <task id="22" name="Create Home screen" color="#99ccff" meeting="false" start="2020-01-20" duration="42" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+            <task id="26" name="Develop Menu Bar, Header, and Footer Elements" meeting="false" start="2020-01-20" duration="42" complete="0" expand="true"/>
+            <task id="23" name="Create Services screen(s)" meeting="false" start="2020-01-20" duration="42" complete="0" expand="true"/>
+            <task id="24" name="Create Login screen(s)" meeting="false" start="2020-01-20" duration="42" complete="0" expand="true"/>
+            <task id="25" name="Create Donation screen(s)" meeting="false" start="2020-01-20" duration="42" complete="0" expand="true"/>
+            <task id="30" name="Create Volunteer screen(s)" meeting="false" start="2020-01-20" duration="42" complete="0" expand="true"/>
+            <task id="31" name="Create Events screen(s)" meeting="false" start="2020-01-20" duration="42" complete="0" expand="true"/>
+        </task>
+        <task id="50" name="Handoff &amp; Post-mortem" color="#000000" meeting="false" start="2020-03-02" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true">
+            <task id="52" name="Finalize and submit source code, screenshots and documents" color="#99ccff" meeting="false" start="2020-03-02" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+            <task id="54" name="Create Project post-mortem document" color="#99ccff" meeting="false" start="2020-03-02" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
